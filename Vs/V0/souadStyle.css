@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	font: 100%/1.4 Verdana;	
+	background-color: #c6c6c6;	
+	margin: 0;	
+	padding: 0;	
+	color: #006;
+}
+
+a:link { 
+	color: blue; 
+	text-decoration: underline; 
+}
+a:visited {
+	color: #ba0101; 
+	text-decoration: underline; 
+}
+.headMenu:link {
+	color: #ba0101; 
+	text-decoration: none; 
+}
+.headMenu:visited { 
+	color: #ba0101; 
+	text-decoration: none; 
+}
+.headMenu:hover{
+	color: #006; 
+	text-decoration: underline; 
+}
+.headMenuThisPage:link {
+    color: #ba0101;
+    text-decoration: underline;
+}
+.headMenuThisPage:visited {
+    color: #ba0101;
+    text-decoration: underline;
+}
+footer{
+	text-align: center; 
+	font-size: small; 
+}
+span{ 
+	font-weight: bold; 
+	padding-right: 20px; 
+}
+
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container { 
+	width: 950px;
+	background-color: #efefef;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 95%;
+}

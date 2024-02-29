@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	font: 100%/1.4 Verdana;	
+	background-color: #c6c6c6;	
+	margin: 0 12% 0 12%;
+  	padding: 0;	
+	color: #006;
+}
+img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link 
+{ 
+	color: blue; 
+	text-decoration: underline; 
+}
+.headMenu:link, .headMenu:visited
+{
+	color: #ba0101; 
+	text-decoration: none; 
+}
+.headMenu:hover
+{
+	color: #006; 
+	text-decoration: underline; 
+}
+a:visited, .headMenuThisPage:link, .headMenuThisPage:visited
+{
+    color: #ba0101;
+    text-decoration: underline;
+	/* font-weight: bold;  */
+}
+.footer
+{
+	text-align: center; 
+	font-size: small;
+    color:#ba0101;
+}
+span
+{ 
+	font-weight: bold; 
+	padding-right: 20px; 
+}
+.bannerDiv
+{
+    color: white;
+    background: url("../images/beamBan.jpg"); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container 
+{
+	/* background-color: #efefef;  */
+	background-image: url('../images/background.jpg');
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 90%;
+}

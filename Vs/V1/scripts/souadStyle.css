@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body { 
+	font: 100%/1.4 Verdana;	
+	background-color: #c6c6c6;	
+	margin: 0 12% 0 12%;
+  	padding: 0;	
+	color: #006;
+}
+a:link { 
+	color: blue; 
+	text-decoration: underline; 
+}
+a:visited {
+	color: #ba0101; 
+	text-decoration: underline; 
+}
+.headMenu:link {
+	color: #ba0101; 
+	text-decoration: none; 
+}
+.headMenu:visited { 
+	color: #ba0101; 
+	text-decoration: none; 
+}
+.headMenu:hover{
+	color: #006; 
+	text-decoration: underline; 
+}
+.headMenuThisPage:link {
+    color: #ba0101;
+    text-decoration: underline;
+}
+.headMenuThisPage:visited {
+    color: #ba0101;
+    text-decoration: underline;
+}
+.footer{
+	text-align: center; 
+	font-size: small;
+    color:#ba0101;
+}
+span{ 
+	font-weight: bold; 
+	padding-right: 20px; 
+}
+.bannerDiv{
+    
+    color: #ffffff;
+    background: url("../images/beamBanner.jpg"); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container {
+	background-color: #efefef;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 90%;
+}
